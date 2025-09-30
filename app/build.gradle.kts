@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.parcial"
+    namespace = "com.example.tp3_moviles"
     compileSdk = 36
 
     defaultConfig {

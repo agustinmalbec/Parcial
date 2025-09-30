@@ -1,4 +1,4 @@
-package com.example.parcial.ui.detalle;
+package com.example.tp3_moviles.ui.detalle;
 
 import androidx.lifecycle.ViewModelProvider;
 
@@ -13,9 +13,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.example.parcial.databinding.FragmentDetalleBinding;
-import com.example.parcial.model.Producto;
-import com.example.parcial.ui.cargar.CargarViewModel;
+import com.example.tp3_moviles.databinding.FragmentDetalleBinding;
+import com.example.tp3_moviles.model.Producto;
+import com.example.tp3_moviles.ui.cargar.CargarViewModel;
 
 public class DetalleFragment extends Fragment {
 

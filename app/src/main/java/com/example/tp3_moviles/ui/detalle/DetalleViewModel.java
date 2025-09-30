@@ -1,10 +1,10 @@
-package com.example.parcial.ui.detalle;
+package com.example.tp3_moviles.ui.detalle;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.example.parcial.model.Producto;
+import com.example.tp3_moviles.model.Producto;
 
 import java.util.List;
 

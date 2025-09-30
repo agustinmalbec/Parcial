@@ -1,4 +1,4 @@
-package com.example.parcial.ui.cargar;
+package com.example.tp3_moviles.ui.cargar;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.parcial.databinding.FragmentCargarBinding;
+import com.example.tp3_moviles.databinding.FragmentCargarBinding;
 
 public class CargarFragment extends Fragment {
 

@@ -1,4 +1,4 @@
-package com.example.parcial.ui.listar;
+package com.example.tp3_moviles.ui.listar;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,8 +10,8 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.GridLayoutManager;
 
-import com.example.parcial.databinding.FragmentHomeBinding;
-import com.example.parcial.ui.cargar.CargarViewModel;
+import com.example.tp3_moviles.databinding.FragmentHomeBinding;
+import com.example.tp3_moviles.ui.cargar.CargarViewModel;
 
 public class HomeFragment extends Fragment {
 

@@ -1,4 +1,4 @@
-package com.example.parcial.ui.listar;
+package com.example.tp3_moviles.ui.listar;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,8 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 
-import com.example.parcial.R;
-import com.example.parcial.model.Producto;
+import com.example.tp3_moviles.R;
+import com.example.tp3_moviles.model.Producto;
 
 import java.util.ArrayList;
 import java.util.List;

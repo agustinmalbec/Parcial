@@ -1,4 +1,4 @@
-package com.example.parcial.ui.salir;
+package com.example.tp3_moviles.ui.salir;
 
 import android.app.AlertDialog;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.parcial.databinding.FragmentSalirBinding;
+import com.example.tp3_moviles.databinding.FragmentSalirBinding;
 
 public class SalirFragment extends Fragment {
 

@@ -1,10 +1,10 @@
-package com.example.parcial.ui.listar;
+package com.example.tp3_moviles.ui.listar;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.example.parcial.model.Producto;
+import com.example.tp3_moviles.model.Producto;
 
 import java.util.ArrayList;
 import java.util.Comparator;

@@ -1,4 +1,4 @@
-package com.example.parcial.ui.modificar;
+package com.example.tp3_moviles.ui.modificar;
 
 import androidx.lifecycle.ViewModelProvider;
 
@@ -14,10 +14,10 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 
-import com.example.parcial.R;
-import com.example.parcial.databinding.FragmentModificarBinding;
-import com.example.parcial.model.Producto;
-import com.example.parcial.ui.cargar.CargarViewModel;
+import com.example.tp3_moviles.R;
+import com.example.tp3_moviles.databinding.FragmentModificarBinding;
+import com.example.tp3_moviles.model.Producto;
+import com.example.tp3_moviles.ui.cargar.CargarViewModel;
 
 public class ModificarFragment extends Fragment {
 

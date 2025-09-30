@@ -1,4 +1,4 @@
-package com.example.parcial;
+package com.example.tp3_moviles;
 
 import android.content.Context;
 

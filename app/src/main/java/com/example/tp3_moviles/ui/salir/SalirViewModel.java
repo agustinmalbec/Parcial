@@ -1,4 +1,4 @@
-package com.example.parcial.ui.salir;
+package com.example.tp3_moviles.ui.salir;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

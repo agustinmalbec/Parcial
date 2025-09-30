@@ -1,4 +1,4 @@
-package com.example.parcial.model;
+package com.example.tp3_moviles.model;
 
 import java.io.Serializable;
 

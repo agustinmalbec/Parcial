@@ -1,4 +1,4 @@
-package com.example.parcial;
+package com.example.tp3_moviles;
 
 import android.os.Bundle;
 import android.view.Menu;
@@ -12,7 +12,7 @@ import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.parcial.databinding.ActivityMainBinding;
+import com.example.tp3_moviles.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
