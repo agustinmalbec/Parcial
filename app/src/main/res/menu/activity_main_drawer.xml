@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/hogar"
+            android:title="@string/listar" />
+        <item
+            android:id="@+id/nav_cargar"
+            android:icon="@drawable/upload"
+            android:title="@string/cargar" />
+        <item
+            android:id="@+id/nav_modificar"
+            android:icon="@drawable/upload"
+            android:title="@string/modificar" />
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@drawable/exit"
+            android:title="@string/salir" />
+    </group>
+</menu>

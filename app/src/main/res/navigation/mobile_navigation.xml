@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.parcial.ui.listar.HomeFragment"
+        android:label="@string/listar"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_cargar"
+        android:name="com.example.parcial.ui.cargar.CargarFragment"
+        android:label="@string/cargar"
+        tools:layout="@layout/fragment_cargar" />
+
+    <fragment
+        android:id="@+id/nav_modificar"
+        android:name="com.example.parcial.ui.modificar.ModificarFragment"
+        android:label="@string/modificar"
+        tools:layout="@layout/fragment_modificar">
+
+        <action
+            android:id="@+id/action_modificarFragment_to_detalleFragment"
+            app:destination="@id/nav_detalle" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_detalle"
+        android:name="com.example.parcial.ui.detalle.DetalleFragment"
+        android:label="Detalle del Producto"
+        tools:layout="@layout/fragment_detalle" />
+
+
+    <fragment
+        android:id="@+id/nav_salir"
+        android:name="com.example.parcial.ui.salir.SalirFragment"
+        android:label="@string/salir"
+        tools:layout="@layout/fragment_salir" />
+</navigation>
